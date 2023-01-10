@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: auto;
+    background: black;
+    max-width: 414px;
+    margin: auto;
+}
+
+.burger {
+    position: absolute;
+    top: 20px;
+    margin-left: 355px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 6px;
+}
+
+main {
+    background: rgb(243, 243, 243);
+}
+
+.main {
+    height: 400px;
+    background: rgb(178, 178, 178);
+}
+
+.title {
+    color: white;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    margin: 20px 0 20px 0;
+}
+
+.gym-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px;
+}
+
+.ticket-info {
+    margin: 20px;
+}
+
+.btn-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-section a {
+    background: rgb(178, 178, 178);
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.heading1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.schedule {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 30%;
+    overflow-x: scroll;
+    gap: 3rem;
+    padding: 15px;
+}
+
+.schedule::-webkit-scrollbar{
+    display: none;
+  }
+
+.schedule-container {
+    background: rgb(178, 178, 178);
+    height: 100px;
+    width: 150px;
+    padding: 8px;
+    border-radius: 8px;
+    color: rgb(243, 243, 243);
+    text-align: center;
+}
+
+.time {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.guest-container {
+    background: rgb(178, 178, 178);
+    height: 150px;
+    width: 150px;
+    padding: 8px;
+    border-radius: 50%;
+    color: rgb(243, 243, 243);
+}
+
+.message {
+    background: rgb(178, 178, 178);
+    color: white;
+    padding: 30px 20px;
+}
