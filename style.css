@@ -21,12 +21,12 @@ body {
 .burger div {
   width: 25px;
   height: 3px;
-  background: white;
+  background: rgb(237, 237, 237);
   margin: 6px;
 }
 
 main {
-  background: rgb(243, 243, 243);
+  background: rgb(237, 237, 237);
 }
 
 .main {
@@ -48,7 +48,7 @@ main {
 }
 
 .title {
-  color: white;
+  color: rgb(237, 237, 237);
   padding: 30px;
   animation: TextFadeIn 2s;
 }
@@ -90,7 +90,7 @@ h2 {
 
 .btn-section a {
   background: rgb(215, 82, 82);
-  color: white;
+  color: rgb(237, 237, 237);
   padding: 8px 15px;
   text-decoration: none;
   border-radius: 10px;
@@ -106,7 +106,7 @@ h2 {
   grid-auto-flow: column;
   grid-auto-columns: 30%;
   overflow-x: scroll;
-  gap: 3rem;
+  gap: 3.3rem;
   padding: 15px;
 }
 
@@ -115,12 +115,12 @@ h2 {
 }
 
 .schedule-container {
-  background: rgb(178, 178, 178);
+  background: rgb(37, 32, 32);
   height: 100px;
   width: 150px;
   padding: 8px;
   border-radius: 8px;
-  color: rgb(243, 243, 243);
+  color: rgb(237, 237, 237);
   text-align: center;
 }
 
@@ -142,7 +142,28 @@ h2 {
 }
 
 .message {
-  background: rgb(178, 178, 178);
-  color: white;
+  background: url(pics/background.jpeg);
+  background-size: cover;
+  color: rgb(37, 32, 32);
+  /* text-shadow: 5px 5px 20px black; */
   padding: 30px 20px;
+}
+
+footer {
+  height: 100px;
+  background: url(pics/background.jpeg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 30px;
+}
+
+footer ul {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
