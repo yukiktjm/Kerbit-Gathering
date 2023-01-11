@@ -30,8 +30,10 @@ main {
 }
 
 .main {
-    height: 400px;
-    background: rgb(178, 178, 178);
+    height: 390px;
+    width: 390px;
+    background: url(pics/Video.mp4) no-repeat;
+    background-size: cover;
 }
 
 .title {
@@ -64,7 +66,7 @@ h2 {
 }
 
 .btn-section a {
-    background: rgb(178, 178, 178);
+    background: rgb(215, 82, 82);
     color: white;
     padding: 8px 15px;
     text-decoration: none;
@@ -76,7 +78,7 @@ h2 {
     margin-top: 20px;
 }
 
-.schedule {
+.section {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 30%;
@@ -85,7 +87,7 @@ h2 {
     padding: 15px;
 }
 
-.schedule::-webkit-scrollbar{
+.section::-webkit-scrollbar{
     display: none;
   }
 
@@ -104,13 +106,16 @@ h2 {
     margin-bottom: 5px;
 }
 
-.guest-container {
-    background: rgb(178, 178, 178);
+.guest-container p {
+    width: 150px;
+    text-align: center;
+}
+
+.guest-container img {
     height: 150px;
     width: 150px;
     padding: 8px;
     border-radius: 50%;
-    color: rgb(243, 243, 243);
 }
 
 .message {
