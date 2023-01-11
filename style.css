@@ -1,125 +1,148 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    margin: auto;
-    background: black;
-    max-width: 390px;
-    margin: auto;
+  height: 100vh;
+  margin: auto;
+  background: black;
+  max-width: 390px;
+  margin: auto;
 }
 
 .burger {
-    position: absolute;
-    top: 20px;
-    margin-left: 335px;
+  position: absolute;
+  top: 20px;
+  margin-left: 335px;
 }
 
 .burger div {
-    width: 25px;
-    height: 3px;
-    background: white;
-    margin: 6px;
+  width: 25px;
+  height: 3px;
+  background: white;
+  margin: 6px;
 }
 
 main {
-    background: rgb(243, 243, 243);
+  background: rgb(243, 243, 243);
 }
 
 .main {
-    height: 390px;
-    width: 390px;
-    background: url(pics/Video.mp4) no-repeat;
-    background-size: cover;
+  height: 390px;
+  width: 390px;
+  background: url(pics/Video.mp4) no-repeat;
+  background-size: cover;
+  animation: FadeIn 1s;
+}
+
+@keyframes FadeIn {
+  0% {
+    background: black;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .title {
-    color: white;
-    padding: 30px;
+  color: white;
+  padding: 30px;
+  animation: TextFadeIn 1s;
+}
+
+@keyframes TextFadeIn {
+  0% {
+    transform: translateY(-20px);
+  }
+
 }
 
 h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 h2 {
-    margin: 20px 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 
 .gym-info {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 20px;
+}
+
+.title {
+  text-shadow: 5px 5px 20px black;
 }
 
 .ticket-info {
-    margin: 20px;
+  margin: 20px;
 }
 
 .btn-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-section a {
-    background: rgb(215, 82, 82);
-    color: white;
-    padding: 8px 15px;
-    text-decoration: none;
-    border-radius: 10px;
+  background: rgb(215, 82, 82);
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 .heading1 {
-    margin-left: 20px;
-    margin-top: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .section {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 30%;
-    overflow-x: scroll;
-    gap: 3rem;
-    padding: 15px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 30%;
+  overflow-x: scroll;
+  gap: 3rem;
+  padding: 15px;
 }
 
-.section::-webkit-scrollbar{
-    display: none;
-  }
+.section::-webkit-scrollbar {
+  display: none;
+}
 
 .schedule-container {
-    background: rgb(178, 178, 178);
-    height: 100px;
-    width: 150px;
-    padding: 8px;
-    border-radius: 8px;
-    color: rgb(243, 243, 243);
-    text-align: center;
+  background: rgb(178, 178, 178);
+  height: 100px;
+  width: 150px;
+  padding: 8px;
+  border-radius: 8px;
+  color: rgb(243, 243, 243);
+  text-align: center;
 }
 
 .time {
-    font-size: 20px;
-    margin-bottom: 5px;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .guest-container p {
-    width: 150px;
-    text-align: center;
+  width: 150px;
+  text-align: center;
 }
 
 .guest-container img {
-    height: 150px;
-    width: 150px;
-    padding: 8px;
-    border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  padding: 8px;
+  border-radius: 50%;
 }
 
 .message {
-    background: rgb(178, 178, 178);
-    color: white;
-    padding: 30px 20px;
+  background: rgb(178, 178, 178);
+  color: white;
+  padding: 30px 20px;
 }
