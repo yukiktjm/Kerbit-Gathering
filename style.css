@@ -8,14 +8,14 @@ body {
     height: 100vh;
     margin: auto;
     background: black;
-    max-width: 414px;
+    max-width: 390px;
     margin: auto;
 }
 
 .burger {
     position: absolute;
     top: 20px;
-    margin-left: 345px;
+    margin-left: 335px;
 }
 
 .burger div {
