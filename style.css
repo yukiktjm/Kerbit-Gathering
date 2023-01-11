@@ -150,14 +150,14 @@ h2 {
 }
 
 footer {
-  height: 100px;
+  height: 90px;
   background: url(pics/background.jpeg);
   background-size: cover;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 0 30px;
+  padding: 0 35px 0 25px;
 }
 
 footer ul {
@@ -166,4 +166,8 @@ footer ul {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+
+footer img {
+  width: 30px;
 }
